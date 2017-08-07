@@ -48,3 +48,13 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Description", name: "description", widget: "markdown"}
+  
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "about"
+        label: "About"
+        file: "_pages/about.md"
+        fields:
+          - {label: "Page Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
