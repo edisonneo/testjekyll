@@ -1,23 +1,23 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="hero">
+	<video id="bgvid" preload autoplay muted loop>
+		<source type="video/mp4" src="assets/video/delllovideoslider_new.mp4">
+	</video>
+	<div class="bg_img" style="background-image: url('assets/images/hero_bg.jpg');"></div>
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+				<div class="content">
+					<h1>Dell for Business,<br>Made for the Way You Work</h1>
+					<p>The all new Dell Latitude, OptiPlex and Precision computers. <br>Do more without compromise.</p>
+				</div><a href="#laptop">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.2 92.2">
+						<path fill="#010101" stroke="#000000" stroke-width="0" stroke-miterlimit="10" d="M61,39.5c0.2-0.2,0.3-0.4,0.3-0.6 c0-0.2-0.1-0.4-0.3-0.6c-0.3-0.3-0.8-0.3-1.1,0l-14,14L32.5,39.1c-0.2-0.2-0.4-0.3-0.6-0.3c-0.2,0-0.4,0.1-0.6,0.3 c-0.3,0.3-0.3,0.8,0,1.1l14.4,14.4L61,39.5z"></path>
+						<path fill="#010101" d="M92.2,46.1C92.2,20.7,71.6,0,46.1,0S0,20.7,0,46.1c0,25.4,20.7,46.1,46.1,46.1S92.2,71.6,92.2,46.1z M2.3,46.1C2.3,21.9,22,2.2,46.2,2.2c24.2,0,43.9,19.7,43.9,43.9C90.1,70.3,70.4,90,46.2,90C22,90,2.3,70.3,2.3,46.1z"></path>
+					</svg></a>
+			</div>
+		</div>
+	</div>
+</section>
